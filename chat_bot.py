@@ -28,6 +28,7 @@ def obter_resposta(texto: str) -> str:
         ('bye', 'adeus', 'tchau'): 'Gostei de falar contigo! Até breve...'
         'horas': obter_horas,
         'data': obter_data,
+        'como foi seu dia': 'Espero que tenha sido incrível! Me conta mais sobre ele.',
     }
 
     for chave, resposta in respostas.items():
