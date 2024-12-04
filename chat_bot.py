@@ -29,6 +29,7 @@ def obter_resposta(texto: str) -> str:
         'horas': obter_horas,
         'data': obter_data,
         'como foi seu dia': 'Espero que tenha sido incrível! Me conta mais sobre ele.',
+        'me motive': 'Você é incrível e capaz de superar qualquer desafio! Acredite em si mesmo!',
     }
 
     for chave, resposta in respostas.items():
