@@ -30,6 +30,8 @@ def obter_resposta(texto: str) -> str:
         'data': obter_data,
         'como foi seu dia': 'Espero que tenha sido incrível! Me conta mais sobre ele.',
         'me motive': 'Você é incrível e capaz de superar qualquer desafio! Acredite em si mesmo!',
+        'qual sua comida favorita': 'Eu não como, mas se pudesse, escolheria pizza com certeza!',
+        'o que você será no futuro': 'Quem sabe, talvez um assistente ainda mais inteligente para te ajudar!',
     }
 
     for chave, resposta in respostas.items():
