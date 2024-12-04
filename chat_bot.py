@@ -33,6 +33,7 @@ def obter_resposta(texto: str) -> str:
         'qual sua comida favorita': 'Eu não como, mas se pudesse, escolheria pizza com certeza!',
         'o que você será no futuro': 'Quem sabe, talvez um assistente ainda mais inteligente para te ajudar!',
         'como posso ser mais produtivo': 'Tente se concentrar em uma tarefa de cada vez e faça pausas regulares!',
+        'você aprende': 'Ainda não aprendo sozinho, mas com sua ajuda posso melhorar!',
     }
 
     for chave, resposta in respostas.items():
@@ -46,7 +47,7 @@ def obter_resposta(texto: str) -> str:
 
 
 def chat() -> None:
-    print('Bem-vindo ao ChatBot!')
+    print('\033[1;31mBem-vindo ao ChatBot!\033[m')
     print('Escreva "bye" para sair do chat')
     name: str = input('Bot: Como te chamas? ')
     print(f'Bot: Olá, {name}! \n Como te posso ajudar?')
