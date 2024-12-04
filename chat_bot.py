@@ -32,6 +32,7 @@ def obter_resposta(texto: str) -> str:
         'me motive': 'Você é incrível e capaz de superar qualquer desafio! Acredite em si mesmo!',
         'qual sua comida favorita': 'Eu não como, mas se pudesse, escolheria pizza com certeza!',
         'o que você será no futuro': 'Quem sabe, talvez um assistente ainda mais inteligente para te ajudar!',
+        'como posso ser mais produtivo': 'Tente se concentrar em uma tarefa de cada vez e faça pausas regulares!',
     }
 
     for chave, resposta in respostas.items():
