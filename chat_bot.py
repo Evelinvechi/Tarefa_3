@@ -34,6 +34,7 @@ def obter_resposta(texto: str) -> str:
         'o que você será no futuro': 'Quem sabe, talvez um assistente ainda mais inteligente para te ajudar!',
         'como posso ser mais produtivo': 'Tente se concentrar em uma tarefa de cada vez e faça pausas regulares!',
         'você aprende': 'Ainda não aprendo sozinho, mas com sua ajuda posso melhorar!',
+        
     }
 
     for chave, resposta in respostas.items():
